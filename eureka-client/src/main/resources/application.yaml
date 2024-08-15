@@ -11,8 +11,9 @@ eureka:
     # url, куда будет происходить регистрация микросервисов
     service-url:
       defaultZone: http://localhost:8081/eureka
+  instance:
+    instance-id: ${spring.application.name}:${random.uuid}
 
-# отключение лишних логов, т.к. тут не будем создавать и вызывать микросервисы
 logging:
   pattern:
     console: "%C{1.} [%-5level] %d{yyyy-MM-dd HH:mm:ss} - %msg%n"

@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02a8f2bd-92a7-45e4-8d70-48cf1e504786" name="Changes" comment="добавлен роутинг для eclient">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-2/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-2/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-2/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-2/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-2/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-2/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-2/src/main/java/ru/vudovenko/micro/demo/eurekaclient2/EurekaClient2Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-2/src/main/java/ru/vudovenko/micro/demo/eurekaclient2/controllers/NewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-2/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-2/src/test/java/ru/vudovenko/micro/demo/eurekaclient2/EurekaClient2ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/java/ru/vudovenko/micro/demo/eurekaclient/controllers/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/java/ru/vudovenko/micro/demo/eurekaclient/controllers/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +103,9 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.ApiGatewayApplication.executor": "Run",
     "Spring Boot.EurekaClient2Application.executor": "Run",
+    "Spring Boot.EurekaClientApplication-inst1.executor": "Run",
+    "Spring Boot.EurekaClientApplication-inst2.executor": "Run",
+    "Spring Boot.EurekaClientApplication-inst3.executor": "Run",
     "Spring Boot.EurekaClientApplication.executor": "Run",
     "Spring Boot.EurekaServerApplication.executor": "Run",
     "git-widget-placeholder": "develop",
@@ -142,6 +131,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vladi\IdeaProjects\spring-micro-demo\eureka-client-2\src\main\java\ru\vudovenko\micro\demo\eurekaclient2" />
       <recent name="C:\Users\vladi\IdeaProjects\spring-micro-demo" />
       <recent name="C:\Users\vladi\IdeaProjects\spring-micro-demo\.idea" />
     </key>
@@ -155,7 +145,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
+  <component name="RunManager" selected="Spring Boot.EurekaClientApplication-inst3">
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="api-gateway.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.vudovenko.micro.demo.apigateway.ApiGatewayApplication" />
@@ -170,7 +160,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="EurekaClientApplication-inst1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-client.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.vudovenko.micro.demo.eurekaclient.EurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClientApplication-inst2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-client.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.vudovenko.micro.demo.eurekaclient.EurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClientApplication-inst3" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-client.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.vudovenko.micro.demo.eurekaclient.EurekaClientApplication" />
       <method v="2">
@@ -184,6 +188,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
+      <item itemvalue="Spring Boot.EurekaClient2Application" />
+      <item itemvalue="Spring Boot.EurekaClientApplication-inst1" />
+      <item itemvalue="Spring Boot.EurekaClientApplication-inst2" />
+      <item itemvalue="Spring Boot.EurekaClientApplication-inst3" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
