@@ -4,11 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a8f2bd-92a7-45e4-8d70-48cf1e504786" name="Changes" comment="добавлен API Gateway">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    <list default="true" id="02a8f2bd-92a7-45e4-8d70-48cf1e504786" name="Changes" comment="добавлен роутинг для eclient">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-2/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-2/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-2/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-2/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-2/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-2/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-2/src/main/java/ru/vudovenko/micro/demo/eurekaclient2/EurekaClient2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-2/src/main/java/ru/vudovenko/micro/demo/eurekaclient2/controllers/NewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-2/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-2/src/test/java/ru/vudovenko/micro/demo/eurekaclient2/EurekaClient2ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/java/ru/vudovenko/micro/demo/eurekaclient/controllers/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/java/ru/vudovenko/micro/demo/eurekaclient/controllers/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +36,9 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/eureka-client">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/eureka-client-2">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/eureka-server">
@@ -65,6 +81,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
@@ -82,38 +103,40 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.Build api-gateway.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build eureka-client.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build eureka-server.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.ApiGatewayApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.EurekaClientApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.EurekaServerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/vladi/IdeaProjects/spring-micro-demo&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15527344&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build api-gateway.executor": "Run",
+    "Gradle.Build eureka-client-2.executor": "Run",
+    "Gradle.Build eureka-client.executor": "Run",
+    "Gradle.Build eureka-server.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ApiGatewayApplication.executor": "Run",
+    "Spring Boot.EurekaClient2Application.executor": "Run",
+    "Spring Boot.EurekaClientApplication.executor": "Run",
+    "Spring Boot.EurekaServerApplication.executor": "Run",
+    "git-widget-placeholder": "develop",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/vladi/IdeaProjects/spring-micro-demo/eureka-client-2/src/main/java/ru/vudovenko/micro/demo/eurekaclient2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15527344",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -132,10 +155,17 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="api-gateway.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.vudovenko.micro.demo.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClient2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-client-2.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.vudovenko.micro.demo.eurekaclient2.EurekaClient2Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -174,7 +204,7 @@
       <workItem from="1723628636712" duration="3885000" />
       <workItem from="1723638374657" duration="5604000" />
       <workItem from="1723711437054" duration="602000" />
-      <workItem from="1723736418598" duration="6560000" />
+      <workItem from="1723736418598" duration="7290000" />
     </task>
     <task id="LOCAL-00001" summary="init commit: пустой проект gradle для добавления других модулей">
       <option name="closed" value="true" />
@@ -208,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723656446734</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="добавлен роутинг для eclient">
+      <option name="closed" value="true" />
+      <created>1723753183720</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723753183720</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +268,7 @@
     <MESSAGE value="добавлен Eureka Server" />
     <MESSAGE value="добавлен тестовый микросервис" />
     <MESSAGE value="добавлен API Gateway" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавлен API Gateway" />
+    <MESSAGE value="добавлен роутинг для eclient" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлен роутинг для eclient" />
   </component>
 </project>
