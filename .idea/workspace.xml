@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a8f2bd-92a7-45e4-8d70-48cf1e504786" name="Changes" comment="добавлен роутинг для eclient">
+    <list default="true" id="02a8f2bd-92a7-45e4-8d70-48cf1e504786" name="Changes" comment="тестирование балансировщика нагрузки из API Gateway">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/java/ru/vudovenko/micro/demo/eurekaclient/controllers/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/java/ru/vudovenko/micro/demo/eurekaclient/controllers/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client-2/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-2/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +110,7 @@
     "Spring Boot.EurekaClientApplication-inst3.executor": "Run",
     "Spring Boot.EurekaClientApplication.executor": "Run",
     "Spring Boot.EurekaServerApplication.executor": "Run",
+    "StatusDashboardGroupingRule": "true",
     "git-widget-placeholder": "develop",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "17",
@@ -190,8 +193,8 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.ApiGatewayApplication" />
-      <item itemvalue="Spring Boot.EurekaClient2Application" />
       <item itemvalue="Spring Boot.EurekaClientApplication-inst1" />
+      <item itemvalue="Spring Boot.EurekaClient2Application" />
       <item itemvalue="Spring Boot.EurekaClientApplication-inst2" />
       <item itemvalue="Spring Boot.EurekaClientApplication-inst3" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
@@ -258,7 +261,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723753183720</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="тестирование балансировщика нагрузки из API Gateway">
+      <option name="closed" value="true" />
+      <created>1723759794805</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1723759794805</updated>
+    </task>
+    <task id="LOCAL-00007" summary="тестирование балансировщика нагрузки из API Gateway">
+      <option name="closed" value="true" />
+      <created>1723760356412</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1723760356412</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,6 +300,7 @@
     <MESSAGE value="добавлен тестовый микросервис" />
     <MESSAGE value="добавлен API Gateway" />
     <MESSAGE value="добавлен роутинг для eclient" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавлен роутинг для eclient" />
+    <MESSAGE value="тестирование балансировщика нагрузки из API Gateway" />
+    <option name="LAST_COMMIT_MESSAGE" value="тестирование балансировщика нагрузки из API Gateway" />
   </component>
 </project>
