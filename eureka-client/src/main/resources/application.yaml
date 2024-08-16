@@ -1,6 +1,8 @@
 spring:
   application:
     name: eclient
-  # для считывания своего файла конфигурации
   config:
-    import: optional:configserver:http://localhost:8888
+    # для считывания своего файла конфигурации
+    import: configserver:http://localhost:8888
+  profiles:
+    active: micro

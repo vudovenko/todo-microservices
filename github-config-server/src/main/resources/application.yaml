@@ -12,8 +12,8 @@ spring:
           # куда будет клонироваться удаленный репозиторий
           basedir: file://c:/tmp/git-c
           # логин и пароль для доступа к private репозиторию
-          username:
-          password:
+          username: vudovenko
+          password: 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
           # явное уточнение названия ветки
           default-label: main
 
