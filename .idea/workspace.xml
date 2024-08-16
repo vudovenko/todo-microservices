@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02a8f2bd-92a7-45e4-8d70-48cf1e504786" name="Changes" comment="тестирование балансировщика нагрузки из API Gateway">
-      <change afterPath="$PROJECT_DIR$/github-config-server/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github-config-server/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github-config-server/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github-config-server/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github-config-server/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="02a8f2bd-92a7-45e4-8d70-48cf1e504786" name="Changes" comment="создан сервис Spring Cloud Config">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/java/ru/vudovenko/micro/demo/eurekaclient/controllers/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/java/ru/vudovenko/micro/demo/eurekaclient/controllers/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +99,7 @@
     "Gradle.Build eureka-client-2.executor": "Run",
     "Gradle.Build eureka-client.executor": "Run",
     "Gradle.Build eureka-server.executor": "Run",
+    "Gradle.Build github-config-server.executor": "Run",
     "Gradle.Build todo-microservices.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -117,6 +114,7 @@
     "Spring Boot.EurekaClientApplication-inst3.executor": "Run",
     "Spring Boot.EurekaClientApplication.executor": "Run",
     "Spring Boot.EurekaServerApplication.executor": "Run",
+    "Spring Boot.GithubConfigServerApplication.executor": "Run",
     "StatusDashboardGroupingRule": "true",
     "git-widget-placeholder": "develop",
     "ignore.virus.scanning.warn.message": "true",
@@ -235,7 +233,7 @@
       <workItem from="1723638374657" duration="5604000" />
       <workItem from="1723711437054" duration="602000" />
       <workItem from="1723736418598" duration="7290000" />
-      <workItem from="1723810868365" duration="2953000" />
+      <workItem from="1723810868365" duration="9213000" />
     </task>
     <task id="LOCAL-00001" summary="init commit: пустой проект gradle для добавления других модулей">
       <option name="closed" value="true" />
@@ -293,7 +291,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723760356412</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="создан сервис Spring Cloud Config">
+      <option name="closed" value="true" />
+      <created>1723814401483</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1723814401483</updated>
+    </task>
+    <task id="LOCAL-00009" summary="создан сервис Spring Cloud Config">
+      <option name="closed" value="true" />
+      <created>1723814427843</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1723814427843</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,6 +331,7 @@
     <MESSAGE value="добавлен API Gateway" />
     <MESSAGE value="добавлен роутинг для eclient" />
     <MESSAGE value="тестирование балансировщика нагрузки из API Gateway" />
-    <option name="LAST_COMMIT_MESSAGE" value="тестирование балансировщика нагрузки из API Gateway" />
+    <MESSAGE value="создан сервис Spring Cloud Config" />
+    <option name="LAST_COMMIT_MESSAGE" value="создан сервис Spring Cloud Config" />
   </component>
 </project>
